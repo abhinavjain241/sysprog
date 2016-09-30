@@ -5,6 +5,8 @@ main() {
 	char t[10], c;
 	FILE *fp;
 	printf("Give filename:");
+	scanf("%s",t);
+	fp = fopen(t, "r");
 	fscanf(fp, "%d", &a[i]);
 	while (1 == 1) {
 		x = a[pc++];
